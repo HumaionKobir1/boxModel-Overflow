@@ -1,0 +1,32 @@
+.mini-mini{
+    width: 150px;
+    border: 3px solid indianred;
+    overflow: hidden;
+}
+.short-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.box-model{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    border: 3px solid paleturquoise;
+    overflow: auto;
+}
+.extra{
+    overflow: scroll;
+    overflow-y: scroll;
+    
+}
+.box-2{
+    width: 300px;
+    height: 200px;
+    border: 3px solid greenyellow;
+    overflow-x: hidden;
+    /* overflow: hidden; */
+}
